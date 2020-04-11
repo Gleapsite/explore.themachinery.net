@@ -1,0 +1,24 @@
+<html>
+
+<head>
+
+<style> 
+/* NOT MY JAM */
+
+/* Main Template */
+
+/* sub template */
+{% block style %}{% endblock style %}
+</style>
+
+{% block head %} {% endblock head %}
+</head>
+<body>
+{% block body %}
+    <div id="content">
+    {% block content %}
+    {%endblock content%}
+    </div>
+{%endblock body%}
+</body>
+</html>
